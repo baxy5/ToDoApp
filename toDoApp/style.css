@@ -1,0 +1,77 @@
+.header {
+    background-image: url('../toDoApp/img/bg.jpg');
+    height: 200px;
+    width: 70%;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+.content {
+    background-color: rgb(25, 71, 124);
+    height: 500px;
+    width: 70%;
+    border-top: 6px solid rgb(11, 61, 117);
+}
+.add-todo {
+    background-color: rgb(25, 71, 124);
+    height: 70px;
+    width: 70%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top: 6px solid rgb(11, 61, 117);
+}
+.mainTitle{
+    text-align: center;
+    padding: 30;
+    font-size: 45;
+    font-style: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.input{
+    background-color: rgb(24, 110, 196);
+    color: white;
+    padding: 12px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 15px;
+    border: 3px solid rgb(11, 61, 117);
+    margin: 5px 30px;
+}
+.add-button{
+    background-color: rgb(24, 110, 196);
+    color: white;
+    padding: 12px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 15px;
+    border: 3px solid rgb(11, 61, 117);
+    margin: 5px 10px;
+}
+#date{
+    position: absolute;
+    color: rgb(57, 192, 255);
+    font-size: 25px;
+    font-family: 'Titillium Web', sans-serif;
+    margin: 170;
+}
+li {
+    text-align: left;
+    font-size: 40px;
+    list-style: none;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.lineTrough {
+    text-decoration: line-through;
+}
+.trash-button{
+    background-color: rgb(24, 110, 196);
+    color: white;
+    padding: 12px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 15px;
+    border: 3px solid rgb(11, 61, 117);
+    margin: 5px 10px;
+}
+
+

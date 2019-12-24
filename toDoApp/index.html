@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="../toDoApp/img">
+        <!--fa fa-trash-o/fa fa-plus-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>toDoApp</title>
+    </head>
+
+    <body>
+        <!--header-->
+        <div class="header">
+            <p id="date"></p>
+            <h1 class="mainTitle">Today's ToDo</h1>
+        </div>
+        
+        <!--content-->
+        <div class="content">
+            <div class="list">
+                 <ul id="toDoList">
+                 </ul>
+            </div>
+        </div>
+        <!--add-todo foot-->
+        <div class="add-todo" >
+            <form>
+                <input type="text" id="input" placeholder="Add a todo" class="input">
+                <button class="add-button" id="add-button" style="float: right;" onclick="addTodo()"><i class="fa fa-plus"></i></button>
+            </form>
+        </div>
+
+
+        <script src="../toDoApp/app.js"></script>
+    </body>
+</html>
